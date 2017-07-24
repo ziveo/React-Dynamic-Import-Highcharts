@@ -1,0 +1,1 @@
+This project is example of Create React App dynamically importing Highcharts library 
