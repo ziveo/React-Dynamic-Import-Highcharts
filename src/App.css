@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+button {
+  border: none;
+  height: 40px;
+  background-color: #9C27B0;
+  color: #fff;
+  font-size: 1em;
+  padding: 0 1em;
+  margin: 0 0.25em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #bd27d1;
+}
+
+#hc__container {
+  height: 400px;
+  width: 500px;
+  margin: 1.5em auto;
+  background-color: #efefef;
+  border: 10px solid #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart__title {
+  margin: 0;
+  padding: 1em;
+}
