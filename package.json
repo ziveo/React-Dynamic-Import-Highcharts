@@ -2,13 +2,17 @@
   "name": "react-dynamic-import-esri-js-api",
   "version": "1.0.0",
   "description": "React Dynamic Import ESRI JS API",
+  "homepage": "https://ziveo.github.com/React-Dynamic-Import-Highcharts",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "highcharts": "^5.0.12",
     "react": "^16.0.0-alpha.13",
     "react-dom": "^16.0.0-alpha.13",
     "react-scripts": "1.0.10"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -28,6 +32,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ziveo/React-Dynamic-Import-Highcharts/issues"
-  },
-  "homepage": "https://github.com/ziveo/React-Dynamic-Import-Highcharts#readme"
+  }
 }
